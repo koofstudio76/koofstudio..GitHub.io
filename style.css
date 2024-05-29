@@ -1,0 +1,146 @@
+body{      width: 100%;
+         margin: 0;
+         overflow-x: hidden;
+         padding: 0;
+         background-color: rgba(19, 44, 66, 0);
+         z-index: 0;
+         height: 100%; }
+
+
+
+     .sec{background-color: cornsilk;}
+  
+       
+       .grey{display: inline;}
+.red{position: relative;
+          width: 100%;
+          margin: 0;
+      
+          padding: 0;   
+           background-size:cover;
+           grid-area: "red";
+              }      
+
+
+
+            /* TEXT */
+             .red h3{position: absolute;
+                          left: 2%;z-index: 9999;
+                         top:30%;text-shadow:2px 2px 2px rgb(243, 243, 242);
+                          font-size: 4vw;}
+    
+
+     .red h1{position: absolute;
+                background-image: url(img/44.jpg);
+              background-size:13vw ;
+               background-clip: text;
+                  background-attachment: fixed;
+                   font-family: "  kudry_weird-headline";
+                 z-index: 99;
+                 top: 28vw;
+                  color: rgba(230, 231, 228, 0.966);text-shadow:2px 2px 2px goldenrod;
+                font-size:clamp(8vw, 9vw, 19vw) ;
+               left: 2%;
+               width: 96%;}
+
+         .text-block{width: 60%;
+                      line-height:2vw;
+                     margin-top: 9vw;
+                     margin: auto;
+                     text-align: center;
+                    font-weight: 100;}
+
+            .text-block h6{
+               font-size: 23px;
+              font-weight: 100;}
+              
+             h4{font-size: 42px;font-style: italic;font-weight: 100;}   
+
+       .text-block h3{font-size:34px;font-weight: 700;}
+         hr{position: relative;
+         width: 40%;height: 2px;
+           background-color: goldenrod;
+          margin: a;}
+       
+
+.tb1{padding: 2vw;margin: 4vw auto 0;}
+
+   #my-video{width: 60%;height: 100%;color: aliceblue;background-color: black;}    
+   video{width: 60%;height: 100%;color: aliceblue;background-color: black;padding: 1vw;}    
+
+   
+       /* IMG */
+
+img{width: 100%;}
+ 
+#event-svg{position: absolute;transform: scale(1);top: -10vw;}
+       .red .img{width:100%; mask: url(#circleMask4);position:relative;z-index: 3;}
+ .itemred{position: relative;margin: 4vw auto 0;
+width: 80%;
+height: 80%;
+overflow: hidden;}
+          .img1{ width: 100%; mask: url(#circleMask2);}
+          .img3{ width: 12vw;}
+          .img2{ width: 12vw;}
+          .img4{ width: 70%;}
+
+          #block-one{clip-path: url(#clip-1); height: 45vw;}
+     #svg-5{position: absolute;;fill:cornsilk;;top:50px;
+      stroke:goldenrod;stroke-width: 4px;transform: scale(1,1)
+     }
+          @media(max-width:786px){
+                    
+            section{position: relative;
+                              }  
+        .grey{position: relative;
+                  width: 100%;
+                z-index: 1;
+                grid-template-columns:100%;
+                grid-template-rows: auto;
+               } 
+               .red{ margin-bottom: 8vw;z-index: 9;}
+               .grey{height:auto;z-index: 90;}
+               .green, .blue{width: 100%;height: auto;overflow: hidden;}
+                  
+    
+#event-svg{position: absolute;transform: scaley(4.1s);top: 53vw;}        
+                 /* IMG */
+           .img,.img1,.img2,.img3,.omg4{width: 100%;}  /* TEXT */
+                 .text-block{width: 80%;
+                          height: 90%;
+                          z-index: 999;
+                            text-align: center;
+                               margin: auto;
+                                padding: 20px;}
+
+                                #my-video{width: 100%;
+                                  height: 100%;}    
+                                     
+
+                  .text-block h3{font-size: 39px;
+                                  text-align: center;
+                                  font-weight: 900;}
+
+                .text-block h4{font-size: 16px;}
+            .text-block h6{
+              font-size: 23px;
+             font-weight: 100;}
+             
+            h4{font-size: 42px;font-style: italic;font-weight: 100;}   
+#colorlib-services{margin: 9vw 0;}
+      .text-block h3{font-size:34px;font-weight: 700;}
+  
+                .title-up h1{font-size: 25vw;
+                               position: absolute;
+                             width: 100%;
+                        top: -12%;
+                 }
+                }
+
+                
+            @media(max-width:786px){
+              .text-block h3{font-size: 29px;}  
+              .text-block h6{font-size: 18px;} 
+              section{height: 120vw;}
+           .grey{grid-template-columns: 100%;
+          height: 90vw;}}
