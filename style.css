@@ -202,7 +202,7 @@ body{      width: 100%;
               #event-svg{position: absolute;transform: scaleY(3.6);top: 64vw;}
      
 
-              #svg-5{position: absolute;top 72% ;z-index: 9;transform: scaleY(1.7);}
+              #svg-5{position: absolute;top 32% ;z-index: 9;transform: scaleY(1.7);}
               .title-up h3{font-size: 8vw;
                 position: absolute;
               width: 100%;
