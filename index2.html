@@ -4,8 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>3D Grid Effect | Demo 1</title>
-		<meta name="description" content="3D Grid Effect: Recreation of the effect seen in the prototype app by Marcus Eckert | Demo 1" />
+		<title>3D Grid Effect | Demo 2</title>
+		<meta name="description" content="3D Grid Effect: Recreation of the effect seen in the prototype app by Marcus Eckert | Demo 2" />
 		<meta name="keywords" content="3d, grid, effect, flip, css transform, perspective, web design" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
 		<script type="module" src="https://unpkg.com/@google/model-viewer@latest"></script>
 
 	</head>
-	<body>
+	<body class="demo-2">
 		<div class="container">
 			<!-- Top Navigation -->
 			<div class="codrops-top clearfix">
@@ -24,60 +24,130 @@
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=18742"><span>Back to the Codrops Article</span></a></span>
 			</div>
 			<header class="codrops-header">
-				<h1>3D Grid Effect <span>Recreation of the effect seen in the <a href="https://www.youtube.com/watch?v=sjGF6Mw6X_Y">prototype app by Marcus Eckert</a></span></h1>
+				<h1>ТУЛЬСКАЯ ГАРМОНЬ</a></span></h1>
 				<nav class="codrops-demos">
-					<a class="current-demo" href="index.html">Vertical</a>
-					<a href="index2.html">Horizontal</a>
-
+					<a href="index.html">1 ВАРИАНТ</a>
+					<a class="current-demo" href="index2.html">2 ВАРИАНТ</a>
 				</nav>
 			</header>
-			<section class="grid3d vertical" id="grid3d">
+			<section class="grid3d horizontal" id="grid3d">
 				<div class="grid-wrap">
 					<div class="grid">
-						<figure><img src="img/1.jpg" alt="img01"/></figure>
-						<figure><img src="img/5.jpg" alt="img05"/></figure>
-						<figure><img src="img/8.jpg" alt="img08"/></figure>
-						<figure><img src="img/2.jpg" alt="img02"/></figure>
-						<figure><img src="img/4.jpg" alt="img04"/></figure>
-						<figure><img src="img/3.jpg" alt="img03"/></figure>
-						<figure><img src="img/9.jpg" alt="img09"/></figure>
-						<figure><img src="img/6.jpg" alt="img06"/></figure>
-						<figure><img src="img/7.jpg" alt="img07"/></figure>
+						<figure><img src="img/4.jpg" alt="img04"/><h2>гармонь</h2>
+						<div>21000 руб</div><a href="#">3D </a>
+						</figure>
+						<figure><img src="img/3.jpg" alt="img03"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/1.jpg" alt="img01"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/5.jpg" alt="img05"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/2.jpg" alt="img02"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/8.jpg" alt="img08"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/9.jpg" alt="img09"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/6.jpg" alt="img06"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
+						<figure><img src="img/7.jpg" alt="img07"/><h2>гармонь</h2>
+						<div>21000 руб</div>
+					<a href="#">3D </a></figure>
 					</div>
 				</div><!-- /grid-wrap -->
 				<div class="content">
 					<div>
 						<div class="dummy-img"><model-viewer src="./bayan.glb"
-							ios-src="https://huggingface.co/datasets/GeneralBro/3D/resolve/main/USDZ/Nandi.usdz"
-							ar 
-							ar-scale="auto"
-							ar-modes="scene-viewer webxr"
-							xr-environment
-							camera-controls
-							alt="A 3D model"               
-							disable-tap
-							enable-pan
-							class="fullscreenModelViewer"
-							>
-			  </model-viewer></div></div>
+                  ios-src="https://huggingface.co/datasets/GeneralBro/3D/resolve/main/USDZ/Nandi.usdz"
+                  ar 
+                  ar-scale="auto"
+                  ar-modes="scene-viewer webxr"
+                  xr-environment
+                  camera-controls
+                  alt="A 3D model"               
+                  disable-tap
+                  enable-pan
+                  class="fullscreenModelViewer"
+                  >
+				
+				<style>
+					.fullscreenModelViewer {
+					 width: 100%;
+					  /* Full viewport height */
+					  position:relative;
+					  top: 0;
+					  left: 0;
+					  z-index: 9999;
+					  background-color:#585858ab;
+					  /* Ensures it's on top */
+					}</style></div>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
 					</div>
 					<div>
-						<div class="dummy-img"></div>
+						<div class="dummy-img"><model-viewer src="./bayan.glb"
+                  ios-src="https://huggingface.co/datasets/GeneralBro/3D/resolve/main/USDZ/Nandi.usdz"
+                  ar 
+                  ar-scale="auto"
+                  ar-modes="scene-viewer webxr"
+                  xr-environment
+                  camera-controls
+                  alt="A 3D model"               
+                  disable-tap
+                  enable-pan
+                  class="fullscreenModelViewer"
+                  ></div>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
 					</div>
 					<div>
-						<div class="dummy-img"></div>
+						<div class="dummy-img"><model-viewer src="./bayan.glb"
+                  ios-src="https://huggingface.co/datasets/GeneralBro/3D/resolve/main/USDZ/Nandi.usdz"
+                  ar 
+                  ar-scale="auto"
+                  ar-modes="scene-viewer webxr"
+                  xr-environment
+                  camera-controls
+                  alt="A 3D model"               
+                  disable-tap
+                  enable-pan
+                  class="fullscreenModelViewer"
+                  ></div>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
 					</div>
 					<div>
-						<div class="dummy-img"></div>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
-					</div>
+						<model-viewer src="./bayan.glb"
+						ios-src="https://huggingface.co/datasets/GeneralBro/3D/resolve/main/USDZ/Nandi.usdz"
+						ar 
+						ar-scale="auto"
+						ar-modes="scene-viewer webxr"
+						xr-environment
+						camera-controls
+						alt="A 3D model"               
+						disable-tap
+						enable-pan
+						class="fullscreenModelViewer"
+						>
+					  
+					  <style>
+						  .fullscreenModelViewer {
+						   width: 100%;
+							/* Full viewport height */
+							position:relative;
+							top: 0;
+							left: 0;
+							z-index: 9999;
+							background-color:#585858ab;
+							/* Ensures it's on top */
+						  }</style>	</div>
 					<div>
 						<div class="dummy-img"></div>
 						<p class="dummy-text">The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.</p>
