@@ -25,7 +25,7 @@
  }
 
 
-body{      width: 100%;
+body{      width: 100vw;
          margin: 0;
          overflow-x: hidden;
          padding: 0;
@@ -172,72 +172,95 @@ body{      width: 100%;
                 
             .img{width:100%;  mask: url(#circleMask4);position:relative;z-index: 3;}
 
-          .img1{ width: 100%; mask: url(#circleMask1);}
-          .img3{ width: 100%; mask: url(#circleMask3);}
-          .img2{ width: 100%;mask: url(#circleMask2);}
+          .img1{ width: 80%; mask: url(#circleMask1);}
+          .img3{ width: 80%; mask: url(#circleMask3);}
+          .img2{ width: 80%;mask: url(#circleMask2);}
      #block-one{clip-path: url(#clip-1); height: 45vw;}
      #svg-5{position: absolute;;fill:cornsilk;;top:50px;
       stroke:goldenrod;stroke-width: 4px;
               z-index: 1;}
   
-          @media(max-width:786px){
-                #block-one{width:100%;overflow-x:hidden;}
-                #img{width:100%;overflow-x:hidden}
-  #block-one .img{transform: scale(1.52);padding-top: 15vw;}
-  #block-one{margin-bottom: 9vw;padding-bottom: 131vw;}
-  #block-one .red h1{font-size: 15vw;top: 249%;position: absolute;} 
-      .grey{position: relative;
-                  width: 100%;
-              height:auto;
-                  z-index: 1;
-                grid-template-columns:100%;
-                grid-template-rows: auto;
-               } 
-               .red{ margin-bottom: 8vw;z-index: 9;}
-               .green, .blue{width: 100%;height: auto;overflow: hidden;}
-           
-                /* IMG */
-        .img{width: 200%;
-              position: absolute;
-              left:-40%;}
-              #event-svg{position: absolute;transform: scaleY(3.6);top: 64vw;}
-     
+              @media(max-width:786px){
+                ::selection{height: 466vw;}
+#block-one .img{transform: scale(1.52);padding-top: 15vw;}
+#block-one{margin-bottom: 24vw;padding-bottom: 61vw;}
+#block-one .red h1{font-size: 15vw;top: 159%;position: absolute;} 
+#block-one .red h3{font-size: 9vw} 
 
-              #svg-5{position: absolute;top 32% ;z-index: 9;transform: scaleY(1.7);}
-              .title-up h3{font-size: 8vw;
-                position: absolute;
+.grey{position: relative;
               width: 100%;
-              font-family: "  kudry_weird-headline";
-                top: 235px;}     
-                   /* TEXT */
-                 .text-block{width: 80%;
-                          height: 90%;
-                          z-index: 999;
-                            text-align: center;
-                               margin: auto;
-                                padding: 20px;}
-               
-                  .text-block h3{font-size: 39px;
+          height:auto;
+              z-index: 1;
+            grid-template-columns:100%;
+            grid-template-rows: auto;
+           } 
+           .red{ margin-bottom: 8vw;z-index: 9;}
+           .green, .blue{width: 100%;height:auto;overflow: hidden;margin: 12vw 0;}
+       
+            /* IMG */
+            #my-video{position: relative;
+              width:100%;text-align: center;left: 0;top:20vh;}
+          video{margin: auto;
+                width: 100%;}
+         
+         
+       
+    .img{width: 200%;
+          position: absolute;
+          left:-40%;}
+          #event-svg{position: absolute;transform: scaleY(3.6);top: 64vw;}
+ 
+          #event-svg{position: absolute;top:30% ;transform: scale(2) scaleY(3.6);}
+
+          #svg-5{position: absolute;top:72% ;z-index: 9;transform: scaleY(1.7);}
+          .title-up h3{font-size: 8vw;
+            position: absolute;
+          width: 100%;
+          font-family: "  kudry_weird-headline";
+            top: 235px;}     
+               /* TEXT */
+             .text-block{width: 80%;
+                      height:auto;
+                      z-index: 999;
+                        text-align: center;
+                           margin:0 auto;
+                            padding: 20px;}
+           
+              .text-block h3{font-size:39px;
+                              text-align: center;
+                              line-height: vw;margin: 0;
+
+                              font-weight: 900;}
+.mt1{height: 132vh;}
+                              .text-block h4{font-size: 29px;
+                                line-height: 41px;
+                                text-align: center;
+                                font-weight: 900;}
+
+                                .text-block h5{font-size: 59px;
                                   text-align: center;
                                   font-weight: 900;}
-
-                                  .title-up{position: relative;
-                                    grid-area: "text";
-                                    z-index:-0;
-                                    top: -294px;
-                                        width: 100%;
-                                        height:10px;}
-                   
-                                            .title-up h1{font-size: 20vw;
-                                             top: 120px;
-                                           -webkit-text-stroke: 2px goldenrod;
-                                          color: rgba(30, 145, 245, 0);
-                                          text-align: center;
-                                          z-index: 8;}
-                   
-                .title-up h1{font-size: 25vw;
-                               position: absolute;
-                             width: 100%;
-                       
-                 }
-                }
+  
+                
+              
+              
+                              .title-up{position: relative;
+                                grid-area: "text";
+                                z-index:-0;
+                                top: -234px;
+                                    width: 100%;
+                                    height:10px;}
+               
+                                        .title-up h1{font-size: 24vw;
+                                         top: 120px;
+                                       -webkit-text-stroke: 2px goldenrod;
+                                      color: rgba(30, 145, 245, 0);
+                                      text-align: center;
+                                      z-index: 8;}
+               
+            .title-up h3{font-size: 12vw;
+                           position:relative;
+                         width: 100%;
+                         margin:14vh  auto 0;       }
+             .img1{margin-top: 19%;width: 100%;}
+            }}
